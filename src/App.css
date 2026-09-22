@@ -392,6 +392,28 @@
   font-weight: 600;
 }
 
+.examples-label-row {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.btn-clear-history {
+  background: none;
+  border: none;
+  color: var(--ink-soft);
+  font-size: 0.72rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+.btn-clear-history:hover {
+  color: var(--danger);
+}
+
 .example-chip {
   min-height: 58px;
   padding: 12px 13px;
